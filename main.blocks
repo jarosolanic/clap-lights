@@ -1,0 +1,7 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="%reevUYdL?Z4BYKO.SG4">svetlo</variable></variables><block type="pxt-on-start" id="kSddTQ}?J#x(5$t1hwcU" x="0" y="0"></block><block type="device_forever" id="QS^#z_Qj4TYRlQ._lkCi" x="205" y="0"><statement name="HANDLER"><block type="controls_if" id="53cwA~%t%)wI/vq:mFI$"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="variables_get" id=",)dJ{cQ7%Lg=j|`8?@l["><field name="VAR" id="%reevUYdL?Z4BYKO.SG4">svetlo</field></block></value><statement name="DO0"><block type="device_show_leds" id="%rUGKMr?Ff8h7CZwxWp$"><field name="LEDS">`
+        . # . # . 
+        . # . # . 
+        # . . . # 
+        . # # # . 
+        . . . # .
+        `</field></block></statement><statement name="ELSE"><block type="device_clear_display" id=":IZW/=.n3P^2^ksDra40"></block></statement></block></statement></block><block type="input_on_sound" id="o^G10@mJn8cbHe/u#/P9" x="509" y="138"><field name="sound">DetectedSound.Loud</field><statement name="HANDLER"><block type="variables_set" id="y#sHyVHoCNaIumct5AND"><field name="VAR" id="%reevUYdL?Z4BYKO.SG4">svetlo</field><value name="VALUE"><shadow type="math_number"><field name="NUM">1</field></shadow><block type="logic_negate" id="6CxP[I*1Pf]FxR}a^a[b"><value name="BOOL"><block type="variables_get" id="ryVS3va,x=J-a-W(+(Bm"><field name="VAR" id="%reevUYdL?Z4BYKO.SG4">svetlo</field></block></value></block></value></block></statement></block></xml>
